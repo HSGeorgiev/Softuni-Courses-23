@@ -2,4 +2,5 @@
 function SomeFunctionality (input){
     //The actual function here...
     let a = 'Some text to be printed.';
+    console.log(a);
 }
