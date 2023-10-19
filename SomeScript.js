@@ -1,11 +1,5 @@
 //Some JS file here for some functionality..
-function SomeFunctionality (input){
-    //The actual function here...
-    let a = 'Some text to be printed.';
-    console.log(a);
-    let b = input;
-    console.log(b);
-}
+
 
 function circleArea (input){
     let radius = input;
@@ -19,7 +13,23 @@ function circleLength(input){
     return length;
 }
 
+function RectangleArea(side1, side2){
+    let sideOne = side1;
+    let sideTwo = side2;
+    let areaRectangle = sideOne * sideTwo;
+    return areaRectangle;
+}
 
-SomeFunctionality ("Now we can print all the array")
+function RectangeLength(side1, side2){
+    let sideOne = side1;
+    let sideTwo = side2;
+    let lengthRectangle = 2 * (sideOne + sideTwo);
+    return lengthRectangle;
+}
+
+
+
 console.log(circleArea (1));
 console.log(circleLength(1));
+console.log(RectangleArea(3,5));
+console.log(RectangeLength(3, 5));
