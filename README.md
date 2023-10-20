@@ -1,5 +1,5 @@
 # Softuni-Courses-23
-## Some file from different projects, forming a test repo
+## Some files from different projects, forming a test repo
 
 The pack contains the following functions 
 
